@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Petshop do Miro</title>
+        <link rel="stylesheet" href="assets/contato.css">
+        <script src="https://use.fontawesome.com/c2cae44e06.js"></script>
+        <link rel="icon" type="image/png" href="assets/fotos/fundo dos miros png haha/LogoABA.png"/>
+    </head>
+    <body>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
+<header>
+    <nav>
+        <div class="linhas">
+            <i class="fa fa-bars fa-3x" onclick="SubMenu()" aria-hidden="true" id="linhas"></i>
+        </div>
+        <div class="submenu" style="display: none;" id="submenu">
+            <ul>
+                <li class="sobre"><a href="sobre.html">Sobre</a></li>
+                <li><a href="agendamento.html">Agendamento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+        <div class="logo">
+            <a href="home.html"><img src="assets/fotos/fundo dos miros png haha/LOGOMiro.png" alt="Logo petshop do miro" ></a>
+        </div>                            
+        <div class="icone-todos">
+            <div class="icone">
+                <a href="login.html"><i class="fa fa-user-o  fa-2x" aria-hidden="true"></i></a>
+            </div>
+            <div class="icone">
+                <a href="#"><i class="fa fa-search  fa-2x" aria-hidden="true"></i></a>
+            </div>
+            <div class="icone">
+                <a href="carrinho.html"><i class="fa fa-shopping-cart  fa-2x" aria-hidden="true"></i></a>
+            </div>
+            <div class="icone">
+                <a href="chat.html"><i class="fa fa-commenting-o  fa-2x" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </nav>
+</header>
+        <div class="contatos">
+            <i class="fa fa-whatsapp fa-3x" aria-hidden="true"><span>+55 (14)98211-0029</span></i>
+            <br>
+            <i class="fa fa-facebook-square fa-3x" aria-hidden="true"><span>MiroPetShop</span> </i>
+            <br>
+            <i class="fa fa-instagram fa-3x" aria-hidden="true"><span> Miro_Petshop</span></i>
+            <br>
+            <i class="fa fa-envelope-o fa-3x" aria-hidden="true"><span>Miro.shop@gmail.com.br</span></i>
+            <br>
+        </div>
+        <div>
+            <H1>Informe seus dados para entrarmos em contato com você</H1>
+            <form action="" class="tudo">
+                <div class="nome">
+                    <label for="nome"></label>
+                    <input type="text" name="" id="nome"  placeholder="Nome:" required>
+                </div>
+                <div class="pet">
+                    <label for="pet"></label>
+                    <input type="text" name="" id="pet" placeholder="Email:" required>
+                </div>
+                <div class="pet">
+                    <label for="pet"></label>
+                    <input type="text" name="" id="pet" placeholder="Telefone:" required>
+                </div>
+                
+                <div class="tel">
+                    <label for="tel"></label>
+                    <input type="tel" name="" id="name" placeholder="Endereço:" required maxlength="14">
+                </div>
+                <div class="Motivo">
+                    <label for="serie">Motivo</label>
+                    <select name="" id="serie">
+                        <option value=""></option>
+                        <option value="">Reclamação</option>
+                        <option value="">Sujestão</option>
+                        <option value="">Problema</option>
+                        <option value="">Outro</option>
+                    </select>
+                </div>
+                <div class="li">
+                    <label for="resumo"></label>
+                    <textarea name="" id="resumo" title="O que aconteceu?" cols="35" rows="10 " placeholder="Oque aconteceu?"></textarea>
+                </div>
+                <input type="submit" value="Enviar" class="bot">
+            </form>
+            <script src="assets/arquivos js/contato.js"></script>
+        </div>
+    </body>
+</html>

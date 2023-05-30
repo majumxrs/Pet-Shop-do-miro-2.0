@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Petshop do Miro</title>
+        <link rel="stylesheet" href="assets/produtosindv.css">
+        <script src="https://use.fontawesome.com/c2cae44e06.js"></script>
+        <link rel="icon" type="image/png" href="assets/fotos/fundo dos miros png haha/LogoABA.png"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="linhas">
+                    <i class="fa fa-bars fa-3x" onclick="SubMenu()" aria-hidden="true" id="linhas"></i>       
+                </div>
+                <div class="submenu" style="display: none;" id="submenu">
+                    <ul>
+                        <li class="sobre"><a href="sobre.html">Sobre</a></li>
+                        <li><a href="agendamento.html">Agendamento</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <a href="home.html"><img src="assets/fotos/fundo dos miros png haha/LOGOMiro.png" alt="Logo petshop do miro" ></a>
+                </div>                            
+                <div class="icone-todos">
+                    <div class="icone">
+                        <a href="login.html"><i class="fa fa-user-o  fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="icone">
+                        <a href="#"><i class="fa fa-search  fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="icone">
+                        <a href="carrinho.html"><i class="fa fa-shopping-cart  fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="icone">
+                        <a href="chat.html"><i class="fa fa-commenting-o  fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="div-maior">
+            <div class="produtos">
+                <a href="home.html"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
+                <div class="img">
+                    <img src="assets/fotos/com fundo/casa cachorro 2.png" alt="">
+                </div>
+                
+            </div>
+            <div class="detalhes">
+                <div class="fixo">
+                    <div class="total">
+                        <div class="sub">
+                            <span class="nome">Casinha</span>
+                            <span id="subtot"></span>
+                        </div>
+                        <div class="tudo">
+                            <div class="info">
+                <div class="estrelinha">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                
+          
+                    <i class="fa fa-star" aria-hidden="true"></i>
+              
+              
+                    <i class="fa fa-star" aria-hidden="true"></i>
+    
+                
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                
+
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                        <div class="frete">
+                            <span>Em estoque</span>
+                            <span id="frete"></span>
+                        </div>
+
+                        <div class="tot">
+                            <span id="preco" class="preco">R$ 100,00</span>
+                        </div>
+                            </div>
+                            <div class="quantidade">
+                            <span>Quantidade</span>
+                            <div class="quant">
+                                <button class="btn-quantidade" data-preco="100.00" data-operacao="mais">+</button> 
+                                <span id="quantidade">1</span>
+                                <button class="btn-quantidade" data-preco="100.00" data-operacao="menos">-</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="check">
+                        <button class="btn add-car"><a href="carrinho.html">Adicionar ao carrinho</a></button>
+                    </div>
+                    <div class="check1">
+                       
+                        <button class="btn cucuc"><a href="unicoproduto - Copia (11).html">Comprar agora</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="assets/arquivos js/jquery.min.js"></script>
+        <script src="assets/arquivos js/jquery.zoom.min.js"></script>
+        <script src="assets/arquivos js/produtosindv.js"></script>
+        <script src="assets/arquivos js/main.js"></script>
+    </body>
+</html>

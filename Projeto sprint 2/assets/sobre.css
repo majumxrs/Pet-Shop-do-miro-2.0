@@ -1,0 +1,148 @@
+:root {
+    --laranja-claro : #EEC957;
+    --laranja-menu : #EEC957;
+    --btn-bem-vendi: #F29F05;
+    --cinza-claro-fundo: #E3E3E3;
+    --azul-claro: #05AFF2;
+    --laranja-sobre:#FFCC3075;
+    --laranja-carrinho: #F2B807;
+    --fundo-carrinho: #FFFEFE;
+    --cor-escrita-login: #F0AC00;
+    --cor-volta-da-foto-miro: #FFCC30B8;
+    --borda-input: #F0AC00;
+}
+html, body, nav, ul, li, a {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+header {
+    display: flex;
+    align-items: center;
+}
+body {
+    font-size: 14px;
+    background-color: var(--cinza-claro-fundo);
+    font-family: 'Short Stack', cursive;
+}
+nav {
+    height: 6rem;
+    width: 100%;
+    background-color: var(--laranja-menu);
+    display: flex;
+}
+.linhas{
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+.fa-bars{
+    color:#05AFF2
+}
+.logo{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.logo a {
+    width: 80%;
+    height: 6.5rem;
+    box-sizing: border-box;
+    display: flex;
+}
+.icone {
+    padding: 0 1rem;
+    align-items: center;    
+}
+.menu {
+    margin-top: 0.6rem;
+    margin-left: 4.4rem;
+}
+.div-menu{
+    width: 70%;
+}
+.icone-todos {
+    display:flex;
+    align-items: center;
+    width: 20%;
+}
+.fa-user-o, .fa-shopping-cart, .fa-commenting-o, .fa-search{
+    color: black;
+}
+.fa-user-o {
+    margin-left: 4rem;
+}
+.submenu {
+    position: absolute;
+    top: 6rem;
+    background-color: var(--laranja-menu);
+    width: 13rem;
+    height: 11rem;
+    z-index: 99;
+}
+.sobre {
+    padding-top: 0.5rem;
+}
+.submenu li {
+    font-size: 1.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+}
+.submenu a{
+    text-decoration: none;
+    color: black;
+}
+
+.tudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: var(--laranja-sobre);
+    padding: 20px;
+    width: 60%;
+    left: auto;
+    border-radius: 10px;
+    justify-content: space-around;
+    margin-left: 18rem;
+    height: 60rem;
+    margin-top: 20px;
+}
+.sobre-2 {
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    width: 70%;
+    left: auto;
+    border-radius: 10px;
+    justify-content: center;
+    height: 110px;
+    font-size: large;
+    justify-content: space-around;
+    text-align: justify;
+}
+.título {
+    position: relative;
+    top: 3.8rem;
+}
+.texto {
+    position: relative;
+    top: 3rem;
+}
+.Miro{
+    position: relative;
+    top: 4rem;
+    background-color: var(--cor-volta-da-foto-miro);
+    border-radius: 40px;
+    width: 440px;
+    height: 440px;
+    justify-content: center;
+    display: flex; 
+}
+.Miro img {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 40px;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Petshop do Miro</title>
+        <link rel="stylesheet" href="assets/carrinho.css">
+        <script src="https://use.fontawesome.com/c2cae44e06.js"></script>
+        <link rel="icon" type="image/png" href="assets/fotos/fundo dos miros png haha/LogoABA.png"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="linhas">
+                    <i class="fa fa-bars fa-3x" onclick="SubMenu()" aria-hidden="true" id="linhas"></i>
+                </div>
+                <div class="submenu" style="display: none;" id="submenu">
+                    <ul>
+                        <li class="sobre"><a href="sobre.html">Sobre</a></li>
+                        <li><a href="agendamento.html">Agendamento</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <a href="home.html"><img src="assets/fotos/fundo dos miros png haha/LOGOMiro.png" alt="Logo petshop do miro" ></a>
+                </div>                            
+                <div class="icone-todos">
+                    <div class="icone">
+                        <a href="login.html"><i class="fa fa-user-o  fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="icone">
+                        <a href="#"><i class="fa fa-search  fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="icone">
+                        <a href="carrinho.html"><i class="fa fa-shopping-cart  fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="icone">
+                        <a href="chat.html"><i class="fa fa-commenting-o  fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="div-maior">
+            <div class="produtos">
+                <div class="texto">
+                    <span>Carrinho de Compras</span>
+                    <span id="quantprod">Você tem 0 produtos em seu carrinho</span>
+                </div>
+                <div class="carrinho">
+
+                </div>
+            </div>
+            <div class="detalhes">
+                <div class="fixo">
+                    <div class="cima">
+                        <div class="det">
+                            <h3>Detalhes do Cartão</h3>
+                        </div>
+                        <div class="foto">
+                            <img src="assets/fotos/gui mafioso.jpeg" alt="pessoa">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <label for="cartao" class="labell">Número do Cartão</label>
+                        <input type="text" name="" id="cartao" class="cartao" placeholder="0000 0000 0000 0000" minlength="19" maxlength="19">
+                        <label for="nome" class="labell">Nome no Cartão</label>
+                        <input type="text" name="" id="nome" placeholder="Digite o nome que está no cartão">
+                        <div class="caixa-junta">
+                            <div class="caixa-data">
+                                <label for="data" class="label">Vencimento</label>
+                                <input type="text" name="" id="data" placeholder="MM/YYYY" maxlength="7">
+                            </div>
+                            <div class="caixa-cvv">
+                                <label for="cvv" class="label">CVV</label>
+                                <input type="password" name="" id="cvv" maxlength="3" placeholder= "&#9679 &#9679 &#9679">
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="tott">
+                        <div class="sub">
+                            <span>Subtotal</span>
+                            <span id="subtot">R$</span>
+                        </div>
+                        <div class="frete">
+                            <span>Frete</span>
+                            <span id="frete">R$20,00</span>
+                        </div>
+                        <div class="tot">
+                            <span>Total</span>
+                            <span id="total" class="total">R$</span>
+                        </div>
+                    </div>
+                    <div class="check">
+                        <button>Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="assets/arquivos js/jquery.min.js"></script>
+        <script src="assets/arquivos js/main.js"></script>
+    </body>
+</html>

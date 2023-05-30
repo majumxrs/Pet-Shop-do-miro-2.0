@@ -1,0 +1,331 @@
+:root {
+    --laranja-claro : #EEC957;
+    --laranja-menu : #EEC957;
+    --btn-bem-vendi: #F29F05;
+    --cinza-claro-fundo: #E3E3E3;
+    --azul-claro: #05AFF2;
+    --laranja-sobre:#FFCC3075;
+    --laranja-carrinho: #F2B807;
+    --fundo-carrinho: #FFFEFE;
+    --cor-escrita-login: #F0AC00;
+    --cor-volta-da-foto-miro: #FFCC30B8;
+    --borda-input: #F0AC00;
+}
+html, body, nav, ul, li, a {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+header {
+    display: flex;
+    align-items: center;
+}
+body {
+    font-size: 14px;
+    background-color: var(--cinza-claro-fundo);
+    font-family: 'Short Stack', cursive;
+}
+nav {
+    height: 6rem;
+    width: 100%;
+    background-color: var(--laranja-menu);
+    display: flex;
+}
+.linhas{
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+.fa-bars{
+    color:#05AFF2
+}
+.logo{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.logo a {
+    width: 80%;
+    height: 6.5rem;
+    box-sizing: border-box;
+    display: flex;
+}
+.icone {
+    padding: 0 1rem;
+    align-items: center;    
+}
+.menu {
+    margin-top: 0.6rem;
+    margin-left: 4.4rem;
+}
+.div-menu{
+    width: 70%;
+}
+.icone-todos {
+    display:flex;
+    align-items: center;
+    width: 20%;
+}
+.fa-user-o, .fa-shopping-cart, .fa-commenting-o, .fa-search{
+    color: black;
+}
+.fa-user-o {
+    margin-left: 4rem;
+}
+.submenu {
+    position: absolute;
+    top: 6rem;
+    background-color: var(--laranja-menu);
+    width: 13rem;
+    height: 11rem;
+}
+.sobre {
+    padding-top: 0.5rem;
+}
+.submenu li {
+    font-size: 1.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+}
+.submenu a{
+    text-decoration: none;
+    color: black;
+}
+
+.div-maior {
+    width: 85%;
+    margin: 2rem auto;
+    background-color: rgba(236, 238, 239, 0.748);
+    display: flex;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+.img img{
+    width: 5.5rem;
+}
+.foto img{
+    width: 4.5rem;
+}
+img {
+    border-radius: 0.5rem;
+}
+.produtos , .detalhes, .info {
+    display: flex;
+    flex-flow:column ;
+}
+.produtos{
+    width: 50%;
+    padding-right: 4rem;
+    margin: 1rem;
+}
+.detalhes{
+    background-color: var(--laranja-claro);
+    position: relative;
+    border-radius: 0.5rem;
+    margin: 1rem auto;
+    margin-left: -6rem;
+    width: 36rem;
+}
+.produto1, .produto2, .produto3, .produto4{
+    display: flex;
+    margin-top: 2rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    align-items: center;
+    padding: 1rem;
+}
+
+.preco{
+    padding-left: 2rem;
+}
+.texto {
+    display: flex;
+    flex-flow:column ;
+}
+.texto span {
+    margin-top: 1rem;
+}
+.produtos input {
+    width: 2rem;
+}
+.detalhes .cima {
+    display: flex;
+}
+.detalhes .cima .det, .foto{
+    padding: 1rem;
+    padding-bottom: 0rem;
+}
+.detalhes .cima .foto{
+    padding-left: 14rem;
+}
+.detalhes .info {
+    width: 60%;
+    margin: 1rem;
+    margin-top: 0rem;
+    
+}
+.caixa-junta {
+    display: flex;
+    margin: 1rem;
+}
+.caixa-data{
+    margin-right: 2.8rem;
+}
+.labell {
+    margin: 1rem;
+}
+.detalhes .info #cvv , #data {
+    display: flex;
+    flex-flow: row;
+}
+
+.label{
+    display: block;
+    margin-bottom: 1rem;
+}
+.total {
+    display: flex;
+    flex-flow: column;
+    margin: 2.5rem;
+    margin-top: 0.5rem ;
+}
+.tot #total, .frete #frete{
+    margin-left: 21.5rem;
+}
+#subtot{
+    margin-left: 20.2rem;
+}
+button {
+    margin-top: -1.5rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem; 
+    background-color: var(--laranja-menu);
+}
+.detalhes input, .btn {
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+#nome{
+    width: 25.5rem;
+    margin: 1rem;
+}
+.cartao {
+    margin: 1rem;
+    width: 25.5rem;
+}
+.sub, .tot, .frete {
+    margin-top: 0.5rem;
+    
+}
+hr {
+    border-color: var(--laranja-menu);
+    width: 90%;
+}
+.detalhes {
+    position: sticky;
+    top: 0.4rem;
+    left: 50rem;
+    height: 43rem;
+}
+
+.produtos a i {
+    color: black;
+}
+
+
+.check, .check1{
+    display: flex;
+    justify-content: center;
+}
+
+.check button{
+    background-color: var(--btn-bem-vendi);
+    width: 24rem;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+}
+.check1 button{
+    background-color: var(--btn-bem-vendi);
+    width: 24rem;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+
+.sub{
+    margin-left: 3rem;
+    font-size: 3rem;
+    color: #845600;
+}
+
+
+.tot{
+    font-size: 2rem;
+    color: #845600;
+}
+
+.estrelinha{
+    
+   color: #F0AC00;
+}
+.estrelinha i{
+    padding: 0.5rem;
+}
+.frete{
+    color: #FF8A00;
+}
+
+.cucuc{
+    width: 10rem;
+    margin-top: 0.5rem;
+}
+.quantidade {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    top: 5rem;
+}
+.quant {
+    display: flex;
+    background-color: var(--fundo-carrinho);
+    border: 2px solid var(--laranja-carrinho);
+    width: 7rem;
+    height: 3.5rem;
+    align-items: center;
+}
+.quant span {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+}
+.quant button {
+    border: 0;
+    font-size: 1.5rem;
+    color: var(--cor-escrita-login);
+    background-color: var(--fundo-carrinho);
+    margin-top: 1.3rem;
+    margin-left: 0.7rem;
+}
+.tudo {
+    display: flex;
+    margin-left: 2rem;
+}
+.produtos img {
+    margin-top: 1rem;
+    width: 30rem;
+    margin-left: 6rem;
+}
+.info {
+    position: relative;
+    top:3rem;
+}
+.img {
+    position: relative;
+    overflow: hidden;
+}
+.btn a {
+    color: black;
+    text-decoration: none;
+}

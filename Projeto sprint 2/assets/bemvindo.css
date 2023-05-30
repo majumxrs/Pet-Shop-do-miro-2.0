@@ -1,0 +1,89 @@
+:root {
+    --laranja-claro : #EEC957;
+    --laranja-menu : #EEC957;
+    --btn-bem-vendi: #F29F05;
+    --cinza-claro-fundo: #E3E3E3;
+    --azul-claro: #05AFF2;
+    --laranja-sobre:#FFCC3075;
+    --laranja-carrinho: #F2B807;
+    --fundo-carrinho: #FFFEFE;
+    --cor-escrita-login: #F0AC00;
+    --cor-volta-da-foto-miro: #FFCC30B8;
+    --borda-input: #F0AC00;
+    --fundoo-input: #B0B0B0;
+}
+body, div, h2, img, input {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+}
+body {
+    font-size: 14px;
+}
+main {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--laranja-claro);
+    background-size: cover;
+}
+h2 {
+    color: var(--azul-claro);
+    font-size: 6.5rem;
+    position: absolute;
+    font-family: 'Short Stack', cursive;
+    margin-top: 15rem;
+}
+.bemvindo {
+    display: flex;
+    justify-content: center;
+}
+img {
+    position: absolute;
+    width: 425px;
+    align-items: center;
+    margin-top: 1rem;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.entrar {
+    position: absolute;
+    left: 52rem;
+    top: 28rem;
+}
+.voltar {
+    position: absolute;
+    left: 23.9rem;
+    top: 28rem;
+}
+a{
+    background-color: var(--btn-bem-vendi);
+    border: 1px solid var(--btn-bem-vendi);
+    color: white;
+    padding: 1.3rem;
+    border-radius: 0.6rem;
+    text-decoration: none;
+    font-size: 35px;
+}
+.imagpai2{
+    position: absolute;
+    width: 20%;
+    left: -28px;
+    bottom: 0;
+}
+.imagpai1{
+    position: absolute;
+    width: 60%;
+    left: 290px;
+    bottom:0;
+}
+.imagpai0{
+    position: absolute;
+    width: 20%;
+    left: 1220px;
+    bottom: 0;
+}

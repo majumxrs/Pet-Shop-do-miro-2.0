@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Petshop do Miro - Agendar</title>
+        <link rel="stylesheet" href="assets/agenamento.css">
+        <script src="https://use.fontawesome.com/c2cae44e06.js"></script>
+        <link rel="icon" type="image/png" href="assets/fotos/fundo dos miros png haha/LogoABA.png"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="linhas">
+                    <i class="fa fa-bars fa-3x" onclick="SubMenu()" aria-hidden="true" id="linhas"></i>
+                </div>
+                <div class="submenu" style="display: none;" id="submenu">
+                    <ul>
+                        <li class="sobre"><a href="sobre.html">Sobre</a></li>
+                        <li><a href="agendamento.html">Agendamento</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <a href="home.html"><img src="assets/fotos/fundo dos miros png haha/LOGOMiro.png" alt="Logo petshop do miro" ></a>
+                </div>                            
+                <div class="icone-todos">
+                    <div class="icone">
+                        <a href="login.html"><i class="fa fa-user-o  fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="icone">
+                        <a href="#"><i class="fa fa-search  fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="icone">
+                        <a href="carrinho.html"><i class="fa fa-shopping-cart  fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="icone">
+                        <a href="chat.html"><i class="fa fa-commenting-o  fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div>
+            <div class="h1">
+                <h1 class="agendar">Agende seu horários</h1>
+            </div>
+            <form action="" class="tudo">
+                <div class="nome">
+                    <label for="nome"></label>
+                    <input type="text" name="" id="nome"  placeholder="Nome do dono:" required>
+                </div>
+                <div class="pet">
+                    <label for="pet"></label>
+                    <input type="text" name="" id="pet" placeholder="Nome do seu pet:" required>
+                </div>
+                <div class="pet">
+                    <label for="pet"></label>
+                    <input type="text" name="" id="pet" placeholder="Raça:" required>
+                </div>
+                <div class="data">
+                    <label for="data "></label>
+                    <input type="date" name="" id="data" required min="2023-03-29">
+                </div>
+                <div class="tel">
+                    <label for="tel"></label>
+                    <input type="tel" name="" id="name" placeholder="Horario:" required maxlength="14">
+                </div>
+                <div class="ntext">
+                    <input type="text" name="" id="end" placeholder="Endereço:" required>
+                    <label for="end"></label>
+                </div>
+                <div class="cit">
+                    <label for="cit"></label>
+                    <input type="text" name="" id="cit" required placeholder="Oque:">
+                </div>
+                <div>
+                    <label for="telefo"></label>
+                    <input type="tel" name="" id="telefo" required placeholder="Telefone">
+                </div>
+                <div class="li">
+                    <span>Após terminarmos você prefere:</span>
+                    <br>
+                    <input type="radio" name="opc-pet" id="buscar">
+                    <label for="buscar">Buscar o pet</label>
+                    <input type="radio" name="opc-pet" id="levar">
+                    <label for="levar">Levamos o pet</label>
+                </div>
+                <input type="submit" value="Agendar" class="bot" onclick="alert('Agendamento Realizado com sucesso!')" onclick="BTNentrar()">
+            </form>
+            <script src="assets/arquivos js/agendamento.js"></script>
+    </body>
+</html>

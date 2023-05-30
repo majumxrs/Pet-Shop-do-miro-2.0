@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Petshop do Miro</title>
+        <link rel="stylesheet" href="assets/unicoproduto.css">
+        <script src="https://use.fontawesome.com/c2cae44e06.js"></script>
+        <link rel="icon" type="image/png" href="assets/fotos/fundo dos miros png haha/LogoABA.png"/>
+        <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+        <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+    <body>
+        <header>
+            <nav>
+                <div class="linhas">
+                    <i class="fa fa-bars fa-3x" onclick="SubMenu()" aria-hidden="true" id="linhas"></i>
+                </div>
+                <div class="submenu" style="display: none;" id="submenu">
+                    <ul>
+                        <li class="sobre"><a href="sobre.html">Sobre</a></li>
+                        <li><a href="agendamento.html">Agendamento</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <a href="home.html"><img src="assets/fotos/Logo miro.png" alt="Logo petshop do miro" ></a>
+                </div>                            
+                <div class="icone-todos">
+                    <div class="icone">
+                        <a href="login.html"><i class="fa fa-user-o  fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="icone">
+                        <a href="#"><i class="fa fa-search  fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="icone">
+                        <a href="carrinho.html"><i class="fa fa-shopping-cart  fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="icone">
+                        <a href="chat.html"><i class="fa fa-commenting-o  fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div id="caixaMaior">
+            <h2>Detalhes da compra</h2>
+            <div id="caixaLaranja">
+                
+                <div id="caixadetudo">
+                    <div id="caixaDoProduto">
+                        <div class="caixaimg">
+                            <img src="assets/fotos/fundo dos miros png haha/casinhas/casa cachorro 5.png" alt="" id="produto" >
+                        </div>
+                        <div id="nome-info4">
+                            <span>Casa para cachorro</span>
+                            <h4>Quantidade 1</h4>
+                        </div>
+                        <div id="preco">
+                            <h3>R$ 79,99</h3>
+                        </div>
+                    </div>
+                    <div class="h2">
+                        <h2>Insira os seus dados:</h2>
+                    </div>
+                    <div id="PaiDasInfo">
+                        <div class="nome">
+                            <label for="Nome">Insira o seu nome:</label>
+                            <input type="text" id="Nome" placeholder="Seu nome:" required>
+                        </div>
+                        <div class="cpf">
+                            <label for="CPF">Insira o seu CPF:</label>
+                            <input type="text" id="CPF" placeholder="000.000.000-00:" required maxlength="14">
+                        </div>
+                        <div class="cp">
+                            <label for="cp">Insira a sua cidade:</label>
+                            <input type="text" id="cp" placeholder="Sua cidade:" required>
+                        </div>
+                        <div class="rua">
+                            <label for="rua">Insira a seu endereço:</label>
+                            <input type="text" id="rua" placeholder="Sua rua:" required>
+                        </div>
+                        <div class="numcart">
+                            <label for="ncartao">Numero do sue cartão:</label>
+                            <input type="text" id="ncartao" placeholder="0000 0000 0000 0000:" required maxlength="19">
+                        </div>
+                        <div class="nomecart">
+                            <label for="nocartao">Nome do seu cartão:</label>
+                            <input type="text" id="nocartao"placeholder="Digite o nome que está no cartão:" required>
+                        </div>
+                        <div class="caixatexto">
+                            <span class="experi">Vencimento</span>
+                            <span class="cvv2">CVV</span>
+                        </div>
+                        <div class="porra">
+                            <label for="validade" ></label>
+                            <input type="text" name="" id="validade" placeholder="MM/YY" maxlength="5" minlength="5">
+                            <label for="cvv" ></label>
+                            <input type="text" name="" id="cvv" placeholder= "&#9679 &#9679 &#9679" placeholder= "&#9679 &#9679 &#9679" placeholder= "&#9679 &#9679 &#9679" maxlength="3">
+                        </div>
+                          
+                            <button onclick="BTNcombra()">Comprar agora</button>
+                        
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="assets/arquivos js/unicoproduto.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+:root {
+    --laranja-claro : #EEC957;
+    --laranja-menu : #EEC957;
+    --btn-bem-vendi: #F29F05;
+    --cinza-claro-fundo: #E3E3E3;
+    --azul-claro: #05AFF2;
+    --laranja-sobre:#FFCC3075;
+    --laranja-carrinho: #F2B807;
+    --fundo-carrinho: #FFFEFE;
+    --cor-escrita-login: #F0AC00;
+    --cor-volta-da-foto-miro: #FFCC30B8;
+    --borda-input: #F0AC00;
+    --fundoo-input: #B0B0B0;
+}
+
+html, body, nav, ul, li, a, img, figure, span{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+header {
+    display: flex;
+    align-items: center;
+    height: 6rem;
+    width: 100%;
+    background-color: var(--laranja-menu);
+    display: flex;
+}
+body {
+    font-size: 14px;
+    background-color: var(--cinza-claro-fundo);
+    background-image: url("fotos/patas\ fundo.jpeg");
+}
+.div-vazia {
+    width: 5%;
+}
+.logo a {
+    width: 10%;
+    height: 5.3rem;
+    box-sizing: border-box;
+    display: flex;
+    margin: 0.5rem 0.2rem;
+    margin-right: -3rem; 
+}
+.miro {
+    width: 80%;
+    font-size: 2rem;
+    align-items: center;
+    margin-left: -2.3rem;
+}
+.foto-miro {
+    width: 10%;
+    align-items: center;
+}
+.borda-foto {
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0.5rem 0.8rem;
+    border: 1px solid black;
+}
+.foto {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.todo-chat {
+    display: flex;
+    position: relative;
+    top: 79vh;
+    align-items: center;
+}
+span {
+    width: 80%;
+}
+input[type="text"] {
+    width: 90%;
+    border: 1px solid black;
+    height: 100%;
+    border-radius: 0.4rem;
+    padding: 0.6rem;
+}
+.chat {
+    margin-left:0.5rem ;
+    height: 2rem;
+    width: 80%;
+    margin-bottom: 0.8rem;
+}
+.audio, .arquivo, .emoji {
+    width: 4%;
+    margin-left: 1.3rem;
+}
+.audio {
+    margin-left: 3rem;
+}
+.fa-microphone, .fa-paperclip, .fa-smile-o, .fa-paper-plane-o {
+    color: var(--cor-icones-chat);
+}
+.fa-paper-plane-o{
+    margin-top: 0.3rem;
+}
+.enviar {
+    position:absolute;
+    top:0; right:0;
+    z-index:10;
+    border:none;
+    background:transparent;
+    outline:none;
+}  
+.chat-escrita {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}  
+.chat-escrita input {
+    width: 100%;
+}
+form {
+    height: 100%;
+}
